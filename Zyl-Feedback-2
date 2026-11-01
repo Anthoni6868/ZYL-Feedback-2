@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZYLfeedback.com - ওসমানী বিমানবন্দর যাত্রী পোর্টাল</title>
+    <script src="https://tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-6 shadow-md text-center">
+        <h1 class="text-2xl font-bold">ZYLfeedback.com</h1>
+        <p class="text-sm mt-1">ওসমানী আন্তর্জাতিক বিমানবন্দর যাত্রী সেবা ও অভিযোগ পোর্টাল</p>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- Live Flight Updates Section -->
+        <section class="bg-white rounded-xl shadow-md p-6 mb-8">
+            <h2 class="text-lg font-semibold text-gray-700 border-b pb-3 mb-4">✈️ লাইভ ফ্লাইট আপডেট (ZYL)</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse text-sm">
+                    <thead>
+                        <tr class="bg-gray-100 text-gray-600">
+                            <th class="p-3">ফ্লাইট নম্বর</th>
+                            <th class="p-3">এয়ারলাইন্স</th>
+                            <th class="p-3">গন্তব্য/উৎস</th>
+                            <th class="p-3">অবস্থা</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b">
+                            <td class="p-3 font-medium">BG 202</td>
+                            <td class="p-3">বিমান বাংলাদেশ</td>
+                            <td class="p-3">লন্ডন (LHR)</td>
+                            <td class="p-3"><span class="text-green-600 font-semibold">On Time</span></td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="p-3 font-medium">BS 132</td>
+                            <td class="p-3">ইউএস-বাংলা</td>
+                            <td class="p-3">ঢাকা (DAC)</td>
+                            <td class="p-3"><span class="text-amber-600 font-semibold">Delayed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Google Form Embed Section -->
+        <section class="bg-white rounded-xl shadow-md p-6">
+            <h2 class="text-lg font-semibold text-gray-700 border-b pb-3 mb-4">📝 যাত্রী ফিডব্যাক ও অভিযোগ ফর্ম</h2>
+            <div class="w-full overflow-hidden rounded-lg">
+                <!-- নিচের src="..." এর জায়গায় আপনার কপি করা গুগল ফর্মের লিংকটি বসিয়ে দিন -->
+                <iframe src="YOUR_GOOGLE_FORM_EMBED_LINK" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">লোড হচ্ছে...</iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-6 text-xs text-gray-500">
+        <p>&copy; 2026 ZYLfeedback.com। এটি একটি পরীক্ষামূলক প্ল্যাটফর্ম।</p>
+    </footer>
+
+</body>
+</html>
